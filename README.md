@@ -4,15 +4,10 @@
 Hardware necessário:
 
 Arduino Uno
-Módulo leitor de QR code (por exemplo, um módulo de câmera com capacidade de processamento, como o OV7670)
+Módulo leitor de QR code
 Servomotor
 Jumpers e uma placa de prototipagem
 Instalar bibliotecas necessárias:
-Certifique-se de ter as bibliotecas necessárias instaladas. Para o leitor de QR code, você pode usar uma biblioteca como a ZXing e para controlar o servomotor, a biblioteca Servo.
-
-Para instalar a biblioteca ZXing, vá até o Arduino IDE, clique em "Sketch" -> "Incluir Biblioteca" -> "Gerenciar Bibliotecas". Procure por ZXing e instale a biblioteca.
-
-Para a biblioteca Servo, vá para o mesmo local e procure por Servo.
 
 Conectar os componentes:
 Conecte o módulo leitor de QR code e o servomotor ao Arduino Uno usando jumpers.
@@ -138,3 +133,15 @@ Serial.println(digitalRead(bt2));
   }
 }
 
+
+-----------------------------------------------------------------
+
+OBS: Para o projeto do servomotor que seria feito com QrCode, infelizmente não foi possivel pois não tem no maker.
+Foi então adaptado o projeto para ser usado com um botão que simula a leitura do QrCOde, girando o servomotor que atua como uma catraca.
+
+-----------------------------------------------------------------
+
+Link do video de apresentação
+
+
+https://youtube.com/shorts/v-ihSnq5-sM?feature=share
